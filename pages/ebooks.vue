@@ -18,7 +18,6 @@
             hover:border-indigo-500
           "
         >
-          <nuxt-img :src="ebook.img" />
           <img :src="ebook.img" :alt="ebook.name" />
         </div>
       </div>
