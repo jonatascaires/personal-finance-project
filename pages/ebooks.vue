@@ -19,6 +19,7 @@
           "
         >
           <nuxt-img :src="ebook.img" />
+          <img :src="ebook.img" :alt="ebook.name" />
         </div>
       </div>
     </div>
@@ -69,31 +70,37 @@ export default {
       ebooks: [
         {
           id: 1,
+          name: "ebook1",
           img: "/img/ebook1.png",
           pdf: "/ebooks/ebook1.pdf",
         },
         {
           id: 2,
+          name: "ebook2",
           img: "/img/ebook2.png",
           pdf: "/ebooks/ebook2.pdf",
         },
         {
           id: 3,
+          name: "ebook3",
           img: "/img/ebook3.png",
           pdf: "/ebooks/ebook3.pdf",
         },
         {
           id: 4,
+          name: "ebook4",
           img: "/img/ebook4.png",
           pdf: "/ebooks/ebook4.pdf",
         },
         {
           id: 5,
+          name: "ebook5",
           img: "/img/ebook5.png",
           pdf: "/ebooks/ebook5.pdf",
         },
         {
           id: 6,
+          name: "ebook6",
           img: "/img/ebook6.png",
           pdf: "/ebooks/ebook6.pdf",
         },
